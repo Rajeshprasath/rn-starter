@@ -42,6 +42,24 @@ const HomeScreen = ({ navigation }) => {
           navigation.navigate("Square");
         }}
       ></Button>
+      <Button
+        title="Go to Square Reducer Screen"
+        onPress={() => {
+          navigation.navigate("SquareReducer");
+        }}
+      ></Button>
+      <Button
+        title="Go to Text Screen"
+        onPress={() => {
+          navigation.navigate("Text");
+        }}
+      ></Button>
+      <Button
+        title="RN Print Examples"
+        onPress={() => {
+          navigation.navigate("RNPrint");
+        }}
+      ></Button>
     </View>
   );
 };
